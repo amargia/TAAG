@@ -1,0 +1,93 @@
+table.blueTable {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    width: 100%;
+    max-height: 300px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.blueTable td,
+table.blueTable th {
+    border: 1px solid #b8b8b8;
+    padding: 3px 2px;
+}
+
+th {
+    background: #3b3b3b;
+    border-bottom: 2px solid #000000;
+    position: sticky;
+    top: 0;
+}
+
+table.blueTable tbody td {
+    font-size: 13px;
+}
+
+table.blueTable tr:nth-child(even) {
+    background: #e0e0e0;
+}
+
+tbody tr td:first-child {
+    font-weight: bold;
+    text-transform: uppercase;
+    min-width: 100px;
+}
+
+tbody tr td:last-child {
+    text-align: center;
+    width: 80px;
+    margin: auto;
+}
+
+tbody tr td:nth-last-child(2) {
+    text-align: center;
+}
+
+tbody tr td:nth-last-child(3n) {
+    font-style: italic;
+}
+
+thead tr th:last-child {
+    text-align: center;
+}
+
+thead tr th:nth-last-child(2) {
+    text-align: center;
+}
+
+tr:nth-child(5n) {
+    border-bottom: 2px solid #000000;
+}
+
+table.blueTable thead {
+    background: #e0e0e0;
+    border-bottom: 2px solid #444444;
+}
+
+table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #e0e0e0;
+}
+
+table.blueTable thead th:first-child {
+    border-left: none;
+}
+
+table.blueTable td {
+    font-size: 14px;
+}
+
+table.blueTable .links {
+    text-align: right;
+}
+
+table.blueTable .links a {
+    display: inline-block;
+    background: #e0e0e0;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
